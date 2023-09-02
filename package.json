@@ -1,0 +1,27 @@
+{
+  "name": "solarwind-common",
+  "version": "0.0.18",
+  "description": "Common libraries",
+  "author": "vhalme",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "config": {
+    "prefix": "./"
+  },
+  "publishConfig": {
+    "prefix": "./"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/pg": "^8.10.2",
+    "@types/winston": "^2.4.4",
+    "pg": "^8.11.3",
+    "winston": "^3.10.0"
+  }
+}
